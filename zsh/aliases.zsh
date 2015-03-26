@@ -81,8 +81,6 @@ if [ -d "${HOME}/Code/zendesk" ]; then
   export ZENDESK_CLASSIC_PATH=~/Code/zendesk/zendesk
   export ZENDESK_PROVISIONING_PATH=~/Code/zendesk/zendesk_provisioning
 
-  export ZENDESK_USERNAME=svizzari
-
   # Server configuration
   #export ZENDESK_HOST=zendesk.dev
   #export ZENDESK_PORT=443
