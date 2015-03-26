@@ -10,6 +10,9 @@
     ~/.zshrc: zshrc
     ~/.zsh: zsh/
     ~/.vimrc: vimrc
+    ~/Library/Application Support/Sublime Text 3/Packages/User:
+        path: sublime/
+        force: true
 
 -
   shell:
