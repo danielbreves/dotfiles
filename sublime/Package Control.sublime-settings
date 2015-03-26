@@ -1,0 +1,22 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"CoffeeScript",
+		"Color Highlighter",
+		"FileDiffs",
+		"GitGutter",
+		"Package Control",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-coffee",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-php",
+		"SublimeLinter-ruby",
+		"Text Pastry",
+		"VAlign"
+	]
+}
