@@ -16,6 +16,11 @@
 		"project_repos"
 	],
 	"font_size": 14,
+	"ignored_packages":
+	[
+		"CoffeeScript",
+		"Vintage"
+	],
 	"soda_classic_tabs": true,
 	"tab_size": 2,
 	"theme": "Soda Dark 3.sublime-theme",

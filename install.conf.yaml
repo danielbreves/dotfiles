@@ -17,3 +17,4 @@
 -
   shell:
     - git submodule update --init --recursive # after linking ~/.gitconfig
+    - defaults read com.googlecode.iterm2
