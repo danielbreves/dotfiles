@@ -18,8 +18,8 @@
 	"font_size": 14,
 	"ignored_packages":
 	[
-		"CoffeeScript",
-		"Vintage"
+		"Vintage",
+		"CoffeeScript"
 	],
 	"soda_classic_tabs": true,
 	"tab_size": 2,
