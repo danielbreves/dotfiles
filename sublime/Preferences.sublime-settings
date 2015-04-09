@@ -15,11 +15,11 @@
 		".grunt",
 		"project_repos"
 	],
-	"font_size": 14,
+	"font_size": 12,
 	"ignored_packages":
 	[
-		"Vintage",
-		"CoffeeScript"
+		"CoffeeScript",
+		"Vintage"
 	],
 	"soda_classic_tabs": true,
 	"tab_size": 2,
