@@ -27,7 +27,6 @@ zle -N self-insert url-quote-magic
 unsetopt flowcontrol
 unsetopt menu_complete
 
-setopt inc_append_history
 setopt share_history
 setopt hist_ignore_space
 setopt hist_verify
