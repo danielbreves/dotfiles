@@ -14,7 +14,7 @@ protocol = https
   editor = vim
   mergeoptions = --no-edit
 [push]
-	default = upstream
+	default = simple
 [color]
   ui = auto
 [color "branch"]

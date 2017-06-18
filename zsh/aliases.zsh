@@ -76,6 +76,7 @@ alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 # Paths
 if [ -d "${HOME}/Code/zendesk" ]; then
   export ZENDESK_ROOT=~/Code/zendesk
+  export SSH_USER=dribeiro
   export ZENDESK_APP_MARKET_PATH=~/Code/zendesk/zendesk_app_market
   export ZENDESK_APPS_TOOLS_PATH=~/Code/zendesk/zendesk_apps_tools
   export ZENDESK_CARSON_PATH=~/Code/zendesk/zendesk_carson
