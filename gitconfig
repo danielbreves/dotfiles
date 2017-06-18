@@ -1,13 +1,12 @@
-
 [credential]
-helper = /opt/boxen/bin/boxen-git-credential
-
+  helper = osxkeychain
 [hub]
-protocol = https
-
+  protocol = https
 [user]
   name = Daniel Ribeiro
   email = djbreves@gmail.com
+[url "git@github.com:"]
+  insteadOf = https://github.com/
 [core]
   excludesfile = ~/.gitignore
   whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
