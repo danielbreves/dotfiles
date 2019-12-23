@@ -3,14 +3,15 @@
 [hub]
   protocol = https
 [user]
-  name = Daniel Ribeiro
-  email = djbreves@gmail.com
+	name = Daniel Breves
+	email = djbreves@gmail.com
 [url "git@github.com:"]
   insteadOf = https://github.com/
 [commit]
   verbose = true
+	template = /Users/danielribeiro/.stCommitMsg
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = /Users/danielribeiro/.gitignore
   whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
   editor = vim
   mergeoptions = --no-edit
@@ -45,3 +46,9 @@
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
 	required = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
